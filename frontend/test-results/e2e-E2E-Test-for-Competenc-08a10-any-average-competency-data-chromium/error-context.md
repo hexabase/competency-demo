@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- alert
+- banner:
+  - heading "コンピテンシー評価システム" [level=1]
+  - text: 田中 太郎 (testuser1@example.com)
+  - button "ログアウト":
+    - img
+    - text: ログアウト
+- navigation:
+  - link "ダッシュボード":
+    - /url: /dashboard
+    - button "ダッシュボード":
+      - img
+      - text: ダッシュボード
+  - link "評価フォーム":
+    - /url: /dashboard/evaluation
+    - button "評価フォーム":
+      - img
+      - text: 評価フォーム
+  - link "プロフィール":
+    - /url: /dashboard/profile
+    - button "プロフィール":
+      - img
+      - text: プロフィール
+- main:
+  - heading "ダッシュボード" [level=2]
+  - paragraph: あなたのコンピテンシー評価の概要とAI分析結果を確認できます
+  - heading "評価済み項目" [level=3]
+  - img
+  - text: "10"
+  - paragraph: コンピテンシー項目
+  - heading "平均スコア" [level=3]
+  - img
+  - text: "3.3"
+  - paragraph: 5点満点
+  - heading "評価参加者" [level=3]
+  - img
+  - text: "6"
+  - paragraph: 全社員
+  - heading "コンピテンシーレーダーチャート" [level=3]:
+    - img
+    - text: コンピテンシーレーダーチャート
+  - img
+  - heading "強みの分析と活用戦略" [level=3]:
+    - img
+    - text: 強みの分析と活用戦略
+  - text: 強みが特定されませんでした。
+  - heading "弱みの克服戦略" [level=3]:
+    - img
+    - text: 弱みの克服戦略
+  - text: 改善点が特定されませんでした。
+  - heading "具体的な行動計画" [level=3]:
+    - img
+    - text: 具体的な行動計画
+  - text: 行動計画を生成できませんでした。
+  - heading "現実的な課題" [level=3]:
+    - img
+    - text: 現実的な課題
+  - text: 現実的な課題を特定できませんでした。
+  - heading "学習リソースと推奨書籍" [level=3]:
+    - img
+    - text: 学習リソースと推奨書籍
+  - text: 学習リソースを生成できませんでした。
+  - heading "推奨書籍" [level=4]
+  - heading "7つの習慣" [level=5]
+  - text: 自己啓発・リーダーシップ
+  - paragraph: "著者: スティーブン・R・コヴィー"
+  - paragraph: 個人の効果性を高める基本的な原則を学べる必読書
+  - heading "人を動かす" [level=5]
+  - text: コミュニケーション
+  - paragraph: "著者: デール・カーネギー"
+  - paragraph: 対人関係とコミュニケーションスキルの向上に最適
+  - heading "エッセンシャル思考" [level=5]
+  - text: 時間管理・生産性
+  - paragraph: "著者: グレッグ・マキューン"
+  - paragraph: 重要なことに集中し、生産性を向上させる思考法
+  - heading "総合的な成長戦略" [level=3]:
+    - img
+    - text: 総合的な成長戦略
+  - text: 総合評価を生成できませんでした。
+  - heading "キャリア提案" [level=4]:
+    - img
+    - text: キャリア提案
+  - list:
+    - listitem: • メンター役や新人教育担当として活躍できる可能性があります
+    - listitem: • 新規事業開発や改善提案のプロジェクトに参加してみましょう
+    - listitem: • 定期的な振り返りと目標設定を行い、継続的な成長を目指しましょう
+  - heading "コンピテンシースコア詳細" [level=3]
+  - text: リーダーシップ 2.7 / 5.0 コミュニケーション 4.3 / 5.0 問題解決 3.3 / 5.0 チームワーク 2.7 / 5.0 適応力 3.0 / 5.0 専門知識 3.3 / 5.0 イノベーション 4.0 / 5.0 時間管理 2.7 / 5.0 責任感 3.0 / 5.0 成長意欲 4.0 / 5.0 あなたのスコア 会社平均
+  - link "キャリアプラン":
+    - /url: /dashboard/career-plan
+    - button "キャリアプラン"
+  - button "AIへ評価を依頼"
+  - link "再評価する":
+    - /url: /dashboard/evaluation
+    - button "再評価する"
+```
